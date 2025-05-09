@@ -1,14 +1,14 @@
 {
   "builds": [
     {
-      "src": "package.json",
+      "src": "index.tsx",
       "use": "@vercel/node"
     }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "scripts": {
-    "build": "chmod +x ./node_modules/.bin/tsc && npm run build"
-  }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.tsx"
+    }
+  ]
 }
