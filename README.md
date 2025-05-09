@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shadcn/UI Landing Page Template
 
 ## <a href="https://ui.shadcn.com/" target="_blank">ShadcnUI</a> + <a href="https://react.dev/" target="_blank">React</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
@@ -57,3 +58,7 @@ npm install
 ```bash
 npm run dev
 ```
+=======
+# single-page-marketing-website
+Build a responsive, single-page marketing website for a 8ictional software resale startup. This assignment checks your ability to quickly ship a usable product with clean code, relevant content, and good design instincts.
+>>>>>>> d90b9ceb162da15e13c8712521ecd4f59137be50
