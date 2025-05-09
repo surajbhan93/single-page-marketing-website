@@ -1,14 +1,10 @@
 {
+  "version": 2,
   "builds": [
     {
-      "src": "package.json",
-      "use": "@vercel/node"
+      "src": "index.tsx",
+      "use": "@vercel/static-build"
     }
   ],
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "scripts": {
-    "build": "chmod +x ./node_modules/.bin/tsc && npm run build"
-  }
+  "outputDirectory": "dist" 
 }
